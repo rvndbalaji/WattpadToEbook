@@ -21,4 +21,4 @@ python watty_ebook.py
 ![alt tag](https://github.com/rvn-balaji/WattpadToEbook/blob/master/Capture.PNG)
 
 >> The name that is entered is given as the filename later
-![alt tag](https://github.com/rvn-balaji/WattpadToEbook/blob/master/Capture-2.PNG)
+![alt tag](https://github.com/rvn-balaji/WattpadToEbook/blob/master/Capture-2.png)
