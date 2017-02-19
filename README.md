@@ -32,7 +32,7 @@ Please DO NOT use this (or any script) to illegally distribute the eBooks you fi
 I'm in no way responsible for any copyrighted material you may obtain.
 This script is for PERSONAL and EDUCATIONAL purposes ONLY
 
-And yes, you're welcome to make any changes you wish to, add to it's features
+And yes, you're welcome to make any changes you wish to or add to it's features
 
 
 Happy Reading
