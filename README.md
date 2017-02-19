@@ -18,13 +18,15 @@ python watty_ebook.py
 ```
 
 ID is the 9 digit number that is present in the address bar [link of the Book] after visiting any of the chapters
+
 ![alt tag](https://github.com/rvn-balaji/WattpadToEbook/blob/master/Capture.PNG)
 
  The name that is entered is given as the filename later
+ 
 ![alt tag](https://github.com/rvn-balaji/WattpadToEbook/blob/master/Capture-2.png)
 
 You may use the resulting .HTML file any way you want
-
+_________________________________________________________________________________________________
 DISCLAIMER:
 Please DO NOT use this (or any script) to illegally distribute the eBooks you find of Wattpad.
 I'm in no way responsible for any copyrighted material you may obtain.
