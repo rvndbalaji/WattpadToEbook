@@ -10,6 +10,7 @@
     #2. Requests
     #3. BeautifulSoup
     #4. Codecs
+#INPUT : 9-Digit Number in the URL of any chapter of a Wattpad Book
 #OUTPUT: A HTML file containing the entire eBook with all chapters.
         #This can later be converted to any eBook using third-party tools
         #such as KindleGen or Calibre
