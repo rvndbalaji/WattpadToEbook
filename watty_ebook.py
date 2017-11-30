@@ -5,6 +5,7 @@
 
 #AUTHOR : Aravind Balaji
 #CREATED : 19th Feb 2017 4:00pm IST
+#LAST UPDATED: 30th Nov 2017 8:24am IST
 #Libraries/Imports used :
     #1. Urllib
     #2. Requests
@@ -19,12 +20,17 @@ from urllib.request import Request, urlopen
 import requests
 from bs4 import BeautifulSoup
 import codecs
+import warnings
+warnings.filterwarnings("ignore")
 
 #ID is the 9 digit number that is present in the address bar [link of the Book] after visiting any of the chapters
 BOOK_ID = input("Enter the ID of the first (or any) chapter of the book : ")
 
 #The name that is entered is given as the filename later
 BOOK_NAME = input("Enter the name of the book : ")
+
+#Ask the user what encoding he would like to prefer
+ENCODING = input("\nSometimes, books contain special characters, like smileys or letters from another language.\nIncluding these may sometimes cause problems, but not for all books. Do you wish to include these characters? (Type Y or N) :").capitalize()
 
 #Use the Wattpad Info API to gather the list of all chapter IDs and their names
 
@@ -66,7 +72,11 @@ for CHAPTER in ALL_CHAPTERS:
     psoup = BeautifulSoup(TEXT)
 
     #It is possible there maybe some UNICODE characters such as smileys. Encode them using ASCII
-    ACTUAL_CONTENT = psoup.prettify().encode('ascii','ignore')
+
+    if ENCODING != "Y":
+        ACTUAL_CONTENT = psoup.prettify().encode('ascii','ignore')
+    else:
+        ACTUAL_CONTENT = psoup.prettify().encode('utf-8')
 
     #Append the Chapter to the HTML file
     file.write(ACTUAL_CONTENT)
