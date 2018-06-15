@@ -86,4 +86,4 @@ file.write(bytearray("</body></html>".encode(encoding='utf-8')))
 
 #Close the file
 file.close()
-print("HTML file eBook is ready!")
+print("HTML file eBook is ready! Use KindleGen to convert this file to an ebook")
