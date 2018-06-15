@@ -1,6 +1,6 @@
 Python script to web-scrape Wattpad Books and prepare a HTML file of the book
 The HTML file itself is the entire eBook
-It can later be converted to EPUB or MOBI formats using eBook Generators such as KindleGen
+It can later be converted to EPUB or MOBI formats using eBook Generators such as KindleGen which is included in this repository
 
 Libraries/Imports used :
     1. Urllib
@@ -9,7 +9,7 @@ Libraries/Imports used :
     4. Codecs
 OUTPUT: A HTML file containing the entire eBook with all chapters.
         This can later be converted to any eBook using third-party tools
-        such as KindleGen or Calibre
+        such as KindleGen (included in this repo) or Calibre
 
 
 TO RUN: 
